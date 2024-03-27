@@ -1,0 +1,35 @@
+header{
+    /*allineamento del testo*/
+    text-align: center;
+}
+
+header p{
+    font-size: 90%;/*Dimensione del font*/
+    color: rgb(29, 93, 71);/*colore del font*/
+    background-color: rgb(211, 160, 160);/*colore del backgroud h2*/
+    padding: 1.2em; /*spazio attorno all'elemento*/
+    border-top: 2px gold;/*imposta lo stile del top border in base  ad alcuni elementi*/
+    font-family:'Courier New', Courier, monospace /*cambio di font*/
+}
+
+#Contenitore main{
+    text-align: center;
+    
+}
+
+#Contenitore article h2{
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+#Contenire section{
+    margin-top: 5%;
+    border-left: 2px solid#ece360;
+    margin: 0 auto;
+    float:left;
+}
+
+#Contenitore2{
+    text-align: center;
+}
