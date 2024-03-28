@@ -1,0 +1,73 @@
+/* IMPOSTAZIONI GENERALI */
+@font-face {
+    font-family:Miofont;
+    src: url(./font-awesome.css);
+}
+
+body{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background-image:url(../img/sfondo.png);
+    background-repeat: no-repeat;
+}
+
+
+/* HEADER */
+header{
+    text-align: center;
+    padding: 45px;
+    box-shadow: 5px 10px 20px black; 
+    background-color: rgb(50, 187, 214);
+    margin: 60px;
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size:large;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+
+}
+/* MAIN */
+#contenitore{
+    text-align: center;
+    width: 200px; height: 50px; margin: 30px;
+    background-color: white;
+}
+main{
+    text-align:left;
+
+    word-break: break-all;
+    
+    
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+#title{
+    font-size: 150%;
+    font-weight: bold;
+
+}
+
+.sottotitolo{
+    font-size: 90%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
