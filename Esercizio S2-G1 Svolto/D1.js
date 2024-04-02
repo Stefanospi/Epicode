@@ -18,8 +18,7 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var myName = "Stefano";
-const myname = "Stefano";
+let myName = "Stefano";
 console.log(myName);
 
 /* ESERCIZIO 3
@@ -43,12 +42,13 @@ console.log(x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var myName = "Spitaleri";
-myname ="Spitaleri";
+myName = "Spitaleri";
 console.log(myName);
 
-console.log(myname); //dimostro che ha const non posso riassegnare un valore
-
+const a = 1;
+//a = 5;
+//dimostrazione che ad una costante non è possibile cambiare valore
+console.log(a); 
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -73,6 +73,7 @@ console.log(name1!=name2);
 
 var name2lowercase = name2.toLowerCase();
 console.log(name1 == name2lowercase);
+
 
 
 
